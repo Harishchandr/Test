@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.test.gMap.Testing">
+        <methods>
+          <include name="testing"/>
+          <include name="generateReport"/>
+          <include name="lounchBrowser"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.test.gMap.Testing -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

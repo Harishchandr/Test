@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="9514" started-at="2019-11-27T14:11:49Z" finished-at="2019-11-27T14:11:58Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="9514" started-at="2019-11-27T14:11:49Z" finished-at="2019-11-27T14:11:58Z">
+      <class name="com.test.gMap.Testing">
+        <test-method status="PASS" signature="lounchBrowser(java.lang.String)[pri:0, instance:com.test.gMap.Testing@72d818d1]" name="lounchBrowser" is-config="true" duration-ms="6375" started-at="2019-11-27T19:41:42Z" finished-at="2019-11-27T19:41:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lounchBrowser -->
+        <test-method status="PASS" signature="testing()[pri:1, instance:com.test.gMap.Testing@72d818d1]" name="testing" duration-ms="9502" started-at="2019-11-27T19:41:49Z" finished-at="2019-11-27T19:41:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.gMap.Testing@72d818d1]" name="afterMethod" is-config="true" duration-ms="2" started-at="2019-11-27T19:41:58Z" finished-at="2019-11-27T19:41:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testing status=SUCCESS method=Testing.testing()[pri:1, instance:com.test.gMap.Testing@72d818d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:com.test.gMap.Testing@72d818d1]" name="generateReport" is-config="true" duration-ms="1113" started-at="2019-11-27T19:41:58Z" finished-at="2019-11-27T19:41:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- com.test.gMap.Testing -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
